@@ -8,6 +8,7 @@
     "skipLibCheck": true,
 
     /* Bundler mode */
+    "composite": true,
     "moduleResolution": "bundler",
     "allowImportingTsExtensions": true,
     "isolatedModules": true,
@@ -18,10 +19,10 @@
     /* Linting */
     "strict": true,
     "noFallthroughCasesInSwitch": true,
-    "noUncheckedSideEffectImports": true,
+    "noUncheckedIndexedAccess": true
 
     /* Import paths */
-    "paths": {
+    'paths': {
       "@/*": ["./src/*"]
     }
   },
