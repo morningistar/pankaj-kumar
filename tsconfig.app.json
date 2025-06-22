@@ -22,7 +22,7 @@
     "noUncheckedIndexedAccess": true
 
     /* Import paths */
-    'paths': {
+    "paths": {
       "@/*": ["./src/*"]
     }
   },
